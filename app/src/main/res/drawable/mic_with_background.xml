@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/background_for_mic"
+        android:height="8dp"
+        android:width="8dp"/>
+    <item android:drawable="@drawable/mic"
+        android:height="5dp"
+        android:width="5dp"
+        android:start="1.6dp"
+        android:top="1.6dp"/>
+</layer-list>
