@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/toolbar_background_ssm">
+    <ImageView
+        android:id="@+id/imageViewProfileNavHeader"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/user_avatar_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="just a text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="96dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

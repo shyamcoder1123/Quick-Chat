@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/lock"
+        android:width="8dp"
+        android:height="8dp"/>
+    <item android:drawable="@drawable/chat_for_profile"
+        android:width="5dp"
+        android:height="5dp"
+        android:left="1.5dp"
+        android:top="2.9dp"/>
+</layer-list>

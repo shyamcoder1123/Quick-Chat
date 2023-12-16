@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.quickchat.R;
-import com.example.quickchat.helper.ChatRecyclerAdapter;
+import com.example.quickchat.view.adapters.ChatRecyclerAdapter;
 import com.example.quickchat.model.ChatModel;
 
 import java.util.ArrayList;

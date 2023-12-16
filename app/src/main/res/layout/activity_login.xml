@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
     <EditText
-        android:id="@+id/emailEditTextView"
+        android:id="@+id/emailEditTextViewLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
@@ -41,7 +41,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginScreenimageView"/>
     <EditText
-        android:id="@+id/passwordEditTextView"
+        android:id="@+id/passwordEditTextViewLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your password"
@@ -57,14 +57,14 @@
         android:textColor="@color/white"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailEditTextView"/>
+        app:layout_constraintTop_toBottomOf="@+id/emailEditTextViewLogin"/>
     <TextView
         android:id="@+id/submitButtonTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordEditTextView"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditTextViewLogin"
         android:layout_marginTop="16dp"
         android:paddingRight="32dp"
         android:textSize="16sp"

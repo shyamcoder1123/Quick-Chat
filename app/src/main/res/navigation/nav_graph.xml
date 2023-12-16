@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recentChatsFragment">
+
+    <fragment
+        android:id="@+id/recentChatsFragment"
+        android:name="com.example.quickchat.view.RecentChatsFragment"
+        android:label="fragment_recent_chats"
+        tools:layout="@layout/fragment_recent_chats" >
+        <action
+            android:id="@+id/action_recentChatsFragment_to_contactsFragment"
+            app:destination="@id/contactsFragment" />
+        <action
+            android:id="@+id/action_recentChatsFragment_to_chatActivity"
+            app:destination="@id/chatActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.quickchat.view.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" >
+        <action
+            android:id="@+id/action_contactsFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_contactsFragment_to_chatActivity"
+            app:destination="@id/chatActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.quickchat.view.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_accountActivity"
+            app:destination="@id/accountActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/accountActivity"
+        android:name="com.example.quickchat.view.AccountActivity"
+        android:label="activity_account"
+        tools:layout="@layout/activity_account" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.quickchat.view.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registrationActivity"
+        android:name="com.example.quickchat.view.RegistrationActivity"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
+    <activity
+        android:id="@+id/splashScreenActivity"
+        android:name="com.example.quickchat.view.SplashScreenActivity"
+        android:label="activity_splash_screen"
+        tools:layout="@layout/activity_splash_screen" />
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="com.example.quickchat.view.ProfileActivity"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.quickchat.view.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/chatActivity"
+        android:name="com.example.quickchat.view.ChatActivity"
+        android:label="activity_chat"
+        tools:layout="@layout/activity_chat" />
+</navigation>
+
+<!--<navigation xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:id="@+id/gfg_graph"-->
+<!--&gt;-->
+
+<!--<fragment-->
+<!--    android:id="@+id/gfg_nav"-->
+<!--    android:name="app.navigationcomponentexample.FirstFragment"-->
+<!--    tools:layout="@layout/fragment_first">-->
+
+<!--    <action-->
+<!--        android:id="@+id/something_new"-->
+<!--        app:destination="@id/nav_second_fragment"/>-->
+<!--</fragment>-->
+<!--<fragment-->
+<!--    android:id="@+id/something2"-->
+<!--    android:name="app.navigationcomponentexample.SecondFragment"-->
+<!--    tools:layout="@layout/fragment_second"/>-->
+<!--</navigation>-->

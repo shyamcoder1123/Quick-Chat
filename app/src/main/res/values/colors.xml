@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="selected_icon_color">#FFBB86FC</color> <!-- Replace with your desired color -->
     <color name="unselected_icon_color">#000000</color>
+    <color name="grey">#716E6E</color>
+    <color name="white_shade">#F1EEEE</color>
+    <color name="toolbar_background_ssm">#004545</color>
 </resources>
